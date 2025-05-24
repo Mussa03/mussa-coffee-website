@@ -682,4 +682,33 @@ header .navbar{
         text-align: center;
     }
 
+
+        .about-section .section-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .about-section .about-details {
+        max-width: 100%;
+    }
+
+    .about-section .section-tittle {
+        text-align: center;
+        font-size: var(--font-size-l);
+    }
+
+    .about-section .about-details .text {
+        font-size: var(--font-size-s);
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    .about-section .image-wrapper {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+
 }
