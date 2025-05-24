@@ -682,32 +682,38 @@ header .navbar{
         text-align: center;
     }
 
-
         .about-section .section-content {
         flex-direction: column;
-        align-items: center;
         gap: 40px;
-        text-align: center;
+        align-items: center;
     }
 
     .about-section .about-details {
         max-width: 100%;
+        text-align: center;
     }
 
     .about-section .section-tittle {
+        font-size: 28px; /* match your visual rhythm */
         text-align: center;
-        font-size: var(--font-size-l);
     }
 
     .about-section .about-details .text {
-        font-size: var(--font-size-s);
-        text-align: center;
+        font-size: 15px;
         line-height: 1.6;
+        color: var(--dusty-grey);
     }
 
     .about-section .image-wrapper {
-        max-width: 250px;
+        max-width: 280px;
+        width: 100%;
         margin: 0 auto;
+    }
+
+    .about-section .image-wrapper img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
     }
 
 
