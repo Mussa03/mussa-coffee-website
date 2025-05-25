@@ -679,3 +679,36 @@ header .navbar{
     }
 
 }
+
+
+
+
+/*Responsiveness for 768px*/
+@media screen and (max-width:768px){
+     .menu-section .menu-list{
+        gap: 60px;
+    }
+
+    .menu-section .menu-list .menu-item{
+         width: 100%;
+    }
+
+    .testimonial-section .slider-wrapper{
+        margin: 0 0 30px;
+    }
+
+    .testimonial-section .swiper-slide-button{
+        display: none;
+    } 
+
+    .gallery-section .gallery-list .gallery-item{
+        width: 100%;
+    }
+
+    .footer-section .section-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
